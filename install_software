@@ -1,6 +1,10 @@
 #!/bin/bash
 
-sudo apt install vim gksu git libtool autoconf mercurial cmake cython atop htop libpcap-dev tree python-pip libreadline-dev tshark portaudio19-dev tmux ranger openssh-server
+sudo apt install gksu git libtool autoconf mercurial cmake cython libpcap-dev
+sudo apt install python-pip libreadline-dev portaudio19-dev openssh-server
+sudo apt install tshark
+## "Necessary" softwares to work remotely on a robot
+sudo apt install vim atop htop tree tmux ranger
 
 mkdir -p ~/workspace
 cd ~/workspace
