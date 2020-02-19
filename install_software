@@ -1,6 +1,10 @@
 #!/bin/bash
 
-sudo apt install vim gksu git libtool autoconf mercurial cmake cython atop htop libpcap-dev tree python-pip libreadline-dev tshark portaudio19-dev tmux ranger openssh-server
+sudo apt install gksu git libtool autoconf mercurial cmake cython libpcap-dev
+sudo apt install python-pip libreadline-dev portaudio19-dev openssh-server
+sudo apt install tshark
+## "Necessary" softwares to work remotely on a robot
+sudo apt install vim atop htop tree tmux ranger
 
 mkdir -p ~/workspace
 cd ~/workspace
@@ -19,7 +23,7 @@ cd pyzmq && sudo python setup.py install
 
 
 ### ROS kinetic
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(. /etc/os-release; echo $UBUNTU_CODENAME) main" > /etc/apt/sources.list.d/ros-latest.list'
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 sudo apt update
 sudo apt install ros-kinetic-desktop-full ros-kinetic-sbpl libsuitesparse-dev ros-kinetic-libg2o ros-kinetic-costmap-2d ros-kinetic-nav-core ros-kinetic-costmap-converter ros-kinetic-move-base-msgs ros-kinetic-laser-proc ros-kinetic-urg-c ros-kinetic-joy ros-kinetic-amcl ros-kinetic-map-server ros-kinetic-sick-tim python-catkin-tools python-wstool
