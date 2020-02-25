@@ -64,6 +64,9 @@
 # cart related repos
 - git: {local-name: functionalities/cart_detection, uri: 'git@git.ropod.org:ropod/perception/cart_detection.git', version: master}
 - git: {local-name: functionalities/cart_collection, uri: 'git@git.ropod.org:ropod/skills/cart_collection.git', version: master}
+- git: {local-name: functionalities/mas_perception_msgs, uri: 'https://github.com/b-it-bots/mas_perception_msgs.git', version: devel}
+- git: {local-name: functionalities/mas_perception_libs, uri: 'https://github.com/ropod-project/mas_perception_libs.git', version: feature/cart-pose-detection}
+
 
 # platform repos
 - git: {local-name: platform/setup, uri: 'https://github.com/ropod-project/setup.git', version: master}
