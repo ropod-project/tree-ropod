@@ -81,3 +81,8 @@
 - git: {local-name: platform/ropod_low_level_control, uri: 'git@git.ropod.org:ropod/control/ropod_low_level_control.git', version: develop}
 - git: {local-name: platform/urg_node, uri: 'https://github.com/ropod-project/urg_node.git', version: master}
 - git: {local-name: functionalities/multi-git-status, uri: 'https://github.com/fboender/multi-git-status.git', version: master}
+#- git: {local-name: platform/realsense-ros, uri: 'clone https://github.com/IntelRealSense/realsense-ros.git', version: master}
+- git: {local-name: platform/ros_rslidar, uri: 'https://github.com/RoboSense-LiDAR/ros_rslidar.git', version: master}
+- git: {local-name: platform/accerion-ros-node, uri: 'https://gitlab.com/accerion/accerion-ros-node', version: master}
+- git: {local-name: platform/espros_tof_cam635, uri: 'git@git.ropod.org:ropod/perception/espros_tof_cam635.git', version: master}
+
