@@ -34,6 +34,7 @@
 - git: {local-name: functionalities/tue_serialization, uri: 'https://github.com/ropod-project/tue_serialization.git', version: ropod-master}
 - git: {local-name: functionalities/problib, uri: 'https://github.com/ropod-project/problib.git', version: ropod-master}
 - git: {local-name: functionalities/wire, uri: 'https://github.com/ropod-project/wire.git', version: master}
+- git: {local-name: functionalities/point_cloud_projection, uri: 'git@git.ropod.org:ropod/perception/point_cloud_projection.git', version: master}
 
 # ROPOD comm repos
 - git: {local-name: functionalities/ropod_comm/ropod_com_mediator, uri: 'git@git.ropod.org:ropod/communication/ropod_com_mediator.git', version: develop}
@@ -54,6 +55,7 @@
 - git: {local-name: functionalities/door_status_detection, uri: 'git@git.ropod.org:ropod/navigation/door_status_detection.git', version: develop}
 - git: {local-name: functionalities/floor_detection, uri: 'git@git.ropod.org:ropod/navigation/floor_detection.git', version: master}
 - git: {local-name: functionalities/map_switcher, uri: 'git@git.ropod.org:ropod/navigation/map_switcher.git', version: develop}
+- git: {local-name: functionalities/ropod_nav/basic_navigation, uri: 'https://github.com/ropod-project/basic_navigation.git', version: master}
 
 # git-tooling
 - git: {local-name: functionalities/multi-git-status, uri: 'https://github.com/fboender/multi-git-status.git', version: master}
@@ -70,11 +72,11 @@
 
 # platform repos
 - git: {local-name: platform/setup, uri: 'https://github.com/ropod-project/setup.git', version: master}
-- git: {local-name: platform/ropod_tue_2_bringup, uri: 'https://github.com/ropod-project/ropod_tue_2_bringup.git', version: master}
+- git: {local-name: platform/ropod_tue_2_bringup, uri: 'https://github.com/ropod-project/ropod_tue_2_bringup.git', version: brsu-joypad}
 - git: {local-name: platform/ropod_tue_1_bringup, uri: 'https://github.com/ropod-project/ropod_tue_1_bringup.git', version: master}
 - git: {local-name: platform/ropod_control, uri: 'https://github.com/ropod-project/ropod_control.git', version: master}
 - git: {local-name: platform/robot_common, uri: 'https://github.com/ropod-project/robot_common.git', version: feature/tracking}
-- git: {local-name: platform/ropod_teleop, uri: 'git@git.ropod.org:ropod/ropod_teleop.git', version: develop}
+- git: {local-name: platform/ropod_teleop, uri: 'git@git.ropod.org:ropod/ropod_teleop.git', version: feature/cmd_vel_mux}
 
 - git: {local-name: platform/ropod_twist_mux, uri: 'git@git.ropod.org:ropod/navigation/ropod_twist_mux.git', version: master}
 - git: {local-name: platform/ropod_hri, uri: 'git@git.ropod.org:ropod/execution-monitoring/ropod_hri.git', version: master}
@@ -85,4 +87,5 @@
 - git: {local-name: platform/ros_rslidar, uri: 'https://github.com/RoboSense-LiDAR/ros_rslidar.git', version: master}
 - git: {local-name: platform/accerion-ros-node, uri: 'https://gitlab.com/accerion/accerion-ros-node', version: master}
 - git: {local-name: platform/espros_tof_cam635, uri: 'git@git.ropod.org:ropod/perception/espros_tof_cam635.git', version: master}
-
+- git: {local-name: platform/ropod_bringup, uri: 'https://github.com/ropod-project/ropod_bringup.git', version: master}
+- git: {local-name: platform/ropod_wheel_calibration_tool, uri: 'git@git.ropod.org:ropod/ropod_wheel_calibration_tool.git', version: master}
