@@ -1,0 +1,60 @@
+# Wheels
+- other:
+    local-name: wheel 1
+    meta:
+      uuid: '656594f2-93b5-4606-8b01-5a2d4ae1fa10'
+      hw: wheel
+      firmware_version: unknown
+      id: 1
+      serial_number: unknown
+- other:
+    local-name: wheel 2
+    meta:
+      uuid: 'aab110ff-1340-4f8b-af0b-7d6a3b2abb6e'
+      hw: wheel
+      firmware_version: unknown
+      id: 2
+      serial_number: unknown
+- other:
+    local-name: wheel 3
+    meta:
+      uuid: '1de653b9-4cdd-4cf6-95fd-e1b70c010edf'
+      hw: wheel
+      firmware_version: unknown
+      id: 3
+      serial_number: unknown
+- other:
+    local-name: wheel 4
+    meta:
+      uuid: 'a5359e7f-4dab-4811-b11d-7085820adbaa'
+      hw: wheel
+      firmware_version: unknown
+      id: 4
+      serial_number: unknown
+
+# Docking mechanism
+- other:
+    local-name: docking mechanism
+    meta:
+      uuid: 'c8226b3f-cc0a-4c01-8083-424cdd18a03a'
+      hw: docking mechanism
+      firmware_version: unknown
+      serial_number: unknown
+      model: unknown
+
+# Sensors
+- other:
+    local-name: laser
+    meta:
+      uuid: '403968f4-7ea6-4ade-9e58-de5ee94e17a0'
+      hw: sensor
+      model: Hokuyo
+      serial_number: unknown
+- other:
+    local-name: sensor cube
+    meta:
+      uuid: 'c5f9f8ba-8571-4b0f-aabb-35130cfa4630'
+      hw: sensor cube
+      firmware_version: unknown
+      id: 1
+      serial_number: unknown
